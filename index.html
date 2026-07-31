@@ -113,6 +113,8 @@
         .calc-field { font-weight: bold; color: var(--text-main); }
         .bg-formacion { background-color: #9ca3af !important; }
         body.dark-mode .bg-formacion { background-color: #3f4b5e !important; }
+        .fila-total-general td { background-color: #9ca3af !important; color: #000 !important; }
+        body.dark-mode .fila-total-general td { background-color: #3f4b5e !important; color: #fff !important; }
 
         .td-nombres { text-align: left !important; vertical-align: top !important; min-height: 50px; padding: 10px !important; font-size: 12px; }
         .badge-count { float: right; border: 1px solid var(--border-color); border-radius: 50%; width: 20px; height: 20px; line-height: 20px; text-align: center; font-weight: bold; font-size: 11px; margin-top: -2px; }
@@ -277,7 +279,7 @@
                 </thead>
                 <tbody id="tableBody"></tbody>
                 <tfoot>
-                    <tr class="bg-dark">
+                    <tr class="bg-dark fila-total-general">
                         <td class="row-header">TOTAL GENERAL</td>
                         <td id="tot-ce" class="calc-field">0</td><td id="tot-ft" class="calc-field">0</td>
                         <td id="tot-tb" class="calc-field">0</td><td id="tot-tp" class="calc-field">0</td>
